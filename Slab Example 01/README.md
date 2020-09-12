@@ -12,3 +12,4 @@ located at:
 | 1000.0      | 13000.0     |
 | 5000.0      | 13000.0     |
 
+![alt text](logo.png "Slab Example 01")
