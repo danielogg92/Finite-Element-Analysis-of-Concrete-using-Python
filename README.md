@@ -27,7 +27,7 @@ The following packages are required:
 
 [Matplotlib](https://matplotlib.org/)
 
-[ReportLab](https://www.reportlab.com/opensource/).
+[ReportLab](https://www.reportlab.com/opensource/)
 
 ## Current Versions
 
