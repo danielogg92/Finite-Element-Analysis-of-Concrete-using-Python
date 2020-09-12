@@ -12,4 +12,4 @@ located at:
 | 1000.0      | 13000.0     |
 | 5000.0      | 13000.0     |
 
-![image](Slab Example 01/Slab Exmple_01_mesh plot.png)
+![image](Slab_Example_01_mesh_plot.png)
