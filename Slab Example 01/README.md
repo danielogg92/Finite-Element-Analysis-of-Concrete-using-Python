@@ -12,4 +12,4 @@ located at:
 | 1000.0      | 13000.0     |
 | 5000.0      | 13000.0     |
 
-![Alt Text](Finite-Element-Analysis-of-Concrete-using-Python/Slab Exmple_01_mesh plot.png "Slab Example 01")
+![image](Slab_Exmple_01_mesh_plot.png)
