@@ -313,8 +313,9 @@ def read_text_file(file_name):
     return (nodes,elements,sections,materials,global_freedoms,load_cases,
             load_combos,criteria,mesh_input,area_loads,node_loads);
 
-#Get the filename to be imported
-file_name=input('Enter the file path for the text file: ');
+if(__name__=='__main__'):
+    #Get the filename to be imported
+    file_name=input('Enter the file path for the text file: ');
 
-(nodes,elements,sections,materials,global_freedoms,load_cases,
- load_combos,criteria,mesh_input,area_loads,node_loads)=read_text_file(file_name);
+    (nodes,elements,sections,materials,global_freedoms,load_cases,
+     load_combos,criteria,mesh_input,area_loads,node_loads)=read_text_file(file_name);
