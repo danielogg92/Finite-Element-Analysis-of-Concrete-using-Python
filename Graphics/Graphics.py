@@ -46,7 +46,7 @@ def plot_mesh_2d(nodes,elements):
     x_range=x_max-x_min;
     y_min,y_max=min(y_pts),max(y_pts);
     y_range=y_max-y_min;   
-    x_size=2**3;
+    x_size=2**2;
     y_size=int(x_size*y_range/x_range);
     fig,ax=plt.subplots(figsize=(x_size,y_size)); #Create the plot
     #Loop thru elements dictionary and add frames to plot
