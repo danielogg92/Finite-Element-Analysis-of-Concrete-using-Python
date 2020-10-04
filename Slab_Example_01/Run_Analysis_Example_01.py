@@ -6,7 +6,7 @@ if('..' not in sys.path):
     sys.path.insert(0,'..')
 
 import Finite_Element_Plate as fep;
-import Graphics;
+import Graphics.Graphics as fep_graphics;
 from Generate_Floor_Mesh import read_text_file;
 
 #Test read_text_file
@@ -32,4 +32,4 @@ u_global_red=analysis_output[8];
 fep.print_load_and_reaction_summary(load_cases,nodes,p_global,p_global_post);
 
 #Test plot_mesh_2d
-fig,ax=Graphics.plot_mesh_2d(nodes,elements);
+fig,ax=fep_graphics.plot_mesh_2d(nodes,elements);
