@@ -14,5 +14,31 @@ bearing capacity of 200kPa/mm. There will be tension only supports at the nodes:
 
 ### LOAD CASES
 
-The load cases will be 'DL': Type 'DEAD', 'SDL': Type 'OTHER DEAD', 'LL': Type 'LIVE', 'LLRED': Type 'LIVE REDUCIBLE',
-'EQX1': Type 'STATIC EQ X 1', 'EQY1': Type 'STATIC EQ Y 2'
+| Case        | Case Type |
+| ----------- | ------ |
+| 'DL'        | 'DEAD' |
+| 'SDL'       | 'OTHER DEAD' |
+| 'LL'        | 'LIVE' |
+| 'LLRED'     | 'LIVE REDUCIBLE' |
+| 'EQX1'      | 'STATIC EQ X 1' |
+| 'EQY1'      | 'STATIC EQ Y 2' |
+
+### LOAD COMBINATIONS
+
+| Case        | Load Cases and Factors                                 |
+| ----------- | ------------------------------------------------------ |
+| max service | ['DL', 1.0], ['SDL', 1.0], ['LL', 1.0], ['LLRED', 1.0] |
+| service     | ['DL', 1.0], ['SDL', 1.0], ['LL', 0.7], ['LLRED', 0.7] |
+| longterm    | ['DL', 1.0], ['SDL', 1.0], ['LL', 0.4], ['LLRED', 0.4] |
+| strength    | ['DL', 0.9], ['SDL', 0.9]                              |
+| strength    | ['DL', 0.9], ['SDL', 0.9], ['LL', 1.5], ['LLRED', 1.5] |
+| strength    | ['DL', 1.35], ['SDL', 1.35]                            |
+| strength    | ['DL', 1.2], ['SDL', 1.2], ['LL', 1.5], ['LLRED', 1.5] |
+| strength    | ['DL', 1.0], ['SDL', 1.0], ['LL', 0.3], ['LLRED', 0.3], ['EQX1', 1.0], ['EQY1', 0.3] |
+| strength    | ['DL', 1.0], ['SDL', 1.0], ['LL', 0.3], ['LLRED', 0.3], ['EQX1', 1.0], ['EQY1', -0.3] |
+| strength    | ['DL', 1.0], ['SDL', 1.0], ['LL', 0.3], ['LLRED', 0.3], ['EQX1', -1.0], ['EQY1', 0.3] |
+| strength    | ['DL', 1.0], ['SDL', 1.0], ['LL', 0.3], ['LLRED', 0.3], ['EQX1', -1.0], ['EQY1', -0.3] |
+| strength    | ['DL', 1.0], ['SDL', 1.0], ['LL', 0.3], ['LLRED', 0.3], ['EQX1', 0.3], ['EQY1', 1.0] |
+| strength    | ['DL', 1.0], ['SDL', 1.0], ['LL', 0.3], ['LLRED', 0.3], ['EQX1', 0.3], ['EQY1', -1.0] |
+| strength    | ['DL', 1.0], ['SDL', 1.0], ['LL', 0.3], ['LLRED', 0.3], ['EQX1', -0.3], ['EQY1', 1.0] |
+| strength    | ['DL', 1.0], ['SDL', 1.0], ['LL', 0.3], ['LLRED', 0.3], ['EQX1', -0.3], ['EQY1', -1.0] |
