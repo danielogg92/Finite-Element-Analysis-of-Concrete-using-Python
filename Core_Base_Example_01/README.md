@@ -10,4 +10,9 @@ bearing capacity of 200kPa/mm. There will be tension only supports at the nodes:
 | -1500.0     |  2500.0     |
 |  1500.0     |  2500.0     |
 
-![image](Slab_Example_01_mesh_plot.png)
+![image](Core_Base_Example_01_mesh_plot.png)
+
+### LOAD CASES
+
+The load cases will be 'DL': Type 'DEAD', 'SDL': Type 'OTHER DEAD', 'LL': Type 'LIVE', 'LLRED': Type 'LIVE REDUCIBLE',
+'EQX1': Type 'STATIC EQ X 1', 'EQY1': Type 'STATIC EQ Y 2'
